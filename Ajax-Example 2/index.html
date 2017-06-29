@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Serialize Func.</title>
+	<script src="jquery-3.2.0.min.js"></script>
+	<script>
+		$('button').click(function () {
+			var value=$('#form1').serialize();//all data pull for from form
+			alert(value);
+		});
+	</script>
+</head>
+<body>
+	<form action="" id="form1"><!--GET Method-->
+		<table style="margin: 20% auto">
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="uname" required></td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td><input type="email"	name="uemail" required></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password"	name="upassword" required></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<select name="ugender" required>
+						<option value="Boy">Boy</option>
+						<option value="Girl">Girl</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button>Send</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
