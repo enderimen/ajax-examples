@@ -17,11 +17,11 @@
 		statusText		=	Durumla gelen yazı değerini belirtir.
 
 		****/
-		
+
 		xhr.onreadystatechange=function () {
 			if ((xhr.readyState==4) && (xhr.status==200 || xhr.status==304)) {
 				xhr.responseText;
-				var body=document.getElementsByTagName('body')[0];
+				var body=document.getElementsByTagName('body')[0];//body yakala
 				var span=document.createElement('span');//Span tag lı bir etiket oluştur.
 				var	spanText=document.createTextNode(xhr.responseText);
 				span.appendChild(spanText);
