@@ -1,0 +1,30 @@
+ul{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	list-style:none;
+}
+.altiniCiz{
+	background-color: yellow;
+}
+#flip{
+	height: 25px;
+	width: 200px;
+	margin:auto;
+	padding: 20px;
+	background-color: yellow;
+	text-align: center;
+}
+.panel{
+	height: 50px;
+	width: 200px;
+	margin:auto;
+	padding: 20px;
+	background-color: blue;
+	text-align: center;	
+	display: none;
+}
+#field{
+	height:150px;
+	width: 200px;
+}
